@@ -1,9 +1,9 @@
-import { combineReducers } from 'redex'
+import { combineReducers } from 'redux'
 import mainTodoReducer from './todoReducer'
 import mainUserReducer from './userReducer'
 
 export default combineReducers({
-  mainTodoReducer
+  mainTodoReducer,
   // mainTodoReducer: todoReducer
   mainUserReducer
 })
